@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_add_manual"
+            android:icon="@drawable/ic_edit_location"
+            android:title="Add Location Manually" />
+        <item
+            android:id="@+id/nav_add_current"
+            android:icon="@drawable/ic_my_location"
+            android:title="Add Current Location" />
+        <item
+            android:title="Membership"
+            android:icon="@drawable/ic_membership"
+            android:id="@+id/nav_membership"/>
+    </group>
+    <item android:title="Account">
+        <menu>
+            <item
+                android:checkable="true"
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_person"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "180106753332",
+    "firebase_url": "https://findme-b74c4.firebaseio.com",
+    "project_id": "findme-b74c4",
+    "storage_bucket": "findme-b74c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180106753332:android:ab5f3816585a9e6a",
+        "android_client_info": {
+          "package_name": "com.santosh.findme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180106753332-tj0p6l2tpguei90ql2s5nst97rnbjc83.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.santosh.findme",
+            "certificate_hash": "59e314cc210786d9683d937af2ea339d89aee194"
+          }
+        },
+        {
+          "client_id": "180106753332-t8rr4e7jcg2u7rs6269qt8dq54al07ne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJVSCm-goIn7DDG85RwyqJSpkRByQLHdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180106753332-t8rr4e7jcg2u7rs6269qt8dq54al07ne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
